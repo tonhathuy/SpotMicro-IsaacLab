@@ -1,4 +1,4 @@
-# Template for Isaac Lab Projects
+# SpotMiro IsaacLab
 
 ## Overview
 
