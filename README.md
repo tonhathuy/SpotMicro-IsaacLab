@@ -34,14 +34,14 @@ It allows you to develop in an isolated environment, outside of the core Isaac L
 
         ```bash
         # use 'FULL_PATH_TO_isaaclab.sh|bat -p' instead of 'python' if Isaac Lab is not installed in Python venv or conda
-        python scripts/list_envs.py
+        ~/IsaacLab/isaaclab.sh -p scripts/list_envs.py
         ```
 
     - Running a task:
 
         ```bash
         # use 'FULL_PATH_TO_isaaclab.sh|bat -p' instead of 'python' if Isaac Lab is not installed in Python venv or conda
-        python scripts/<RL_LIBRARY>/train.py --task=<TASK_NAME>
+        ~/IsaacLab/isaaclab.sh -p scripts/<RL_LIBRARY>/train.py --task=<TASK_NAME>
         ```
 
     - Running a task with dummy agents:
@@ -52,13 +52,13 @@ It allows you to develop in an isolated environment, outside of the core Isaac L
 
             ```bash
             # use 'FULL_PATH_TO_isaaclab.sh|bat -p' instead of 'python' if Isaac Lab is not installed in Python venv or conda
-            python scripts/zero_agent.py --task=<TASK_NAME>
+            ~/IsaacLab/isaaclab.sh -p scripts/zero_agent.py --task=<TASK_NAME>
             ```
         - Random-action agent
 
             ```bash
             # use 'FULL_PATH_TO_isaaclab.sh|bat -p' instead of 'python' if Isaac Lab is not installed in Python venv or conda
-            python scripts/random_agent.py --task=<TASK_NAME>
+            ~/IsaacLab/isaaclab.sh -p scripts/random_agent.py --task=<TASK_NAME>
             ```
 
 ### Set up IDE (Optional)

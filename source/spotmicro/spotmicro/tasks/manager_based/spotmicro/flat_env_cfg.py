@@ -17,7 +17,7 @@ from isaaclab.utils.assets import ISAACLAB_NUCLEUS_DIR
 from isaaclab.utils.noise import AdditiveUniformNoiseCfg as Unoise
 # /home/huy/spotmicro-isaaclab/spotmicro/source/spotmicro/spotmicro/tasks/manager_based/spotmicro/mdp
 import spotmicro.tasks.manager_based.spotmicro.mdp as spot_mdp
-import spotmicro.tasks.manager_based.spotmicro.mdp as mdp
+import spotmicro.tasks.manager_based.spotmicro.mdp_velocity as mdp
 from spotmicro.tasks.manager_based.spotmicro.velocity_env_cfg import LocomotionVelocityRoughEnvCfg
 
 ##
