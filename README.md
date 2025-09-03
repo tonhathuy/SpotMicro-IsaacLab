@@ -23,7 +23,7 @@ It allows you to develop in an isolated environment, outside of the core Isaac L
 
     ```bash
     # use 'PATH_TO_isaaclab.sh|bat -p' instead of 'python' if Isaac Lab is not installed in Python venv or conda
-    python -m pip install -e source/spotmicro
+    ~/IsaacLab/isaaclab.sh -p -m pip install -e source/spotmicro
 
 - Verify that the extension is correctly installed by:
 
@@ -60,6 +60,17 @@ It allows you to develop in an isolated environment, outside of the core Isaac L
             # use 'FULL_PATH_TO_isaaclab.sh|bat -p' instead of 'python' if Isaac Lab is not installed in Python venv or conda
             ~/IsaacLab/isaaclab.sh -p scripts/random_agent.py --task=<TASK_NAME>
             ```
+    - Training a model
+
+        ```bash
+        ~/IsaacLab/isaaclab.sh -p scripts/rsl_rl/train.py --task=Template-Spotmicro-Velocity-Flat-v0 --headless
+        ```
+
+    - Playing a model
+
+        ```bash
+        ~/IsaacLab/isaaclab.sh -p scripts/rsl_rl/play.py --task=Template-Spotmicro-Velocity-Flat-Play-v0 --checkpoint 
+        ```
 
 ### Set up IDE (Optional)
 
